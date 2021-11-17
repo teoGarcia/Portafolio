@@ -1,0 +1,14 @@
+<nav class="navegador">
+    <button id="Boton" (click)="presionar()" >
+      <i class="fas fa-bars"></i>
+    </button>
+  
+    <ul class="navegador__ul" [@showUpElements]="menu.length" [ngStyle] = "{'left': move, 'transition': '1s'}">
+      <li *ngFor="let item of menu" class="navegador__ul-li">
+        <a  [routerLink]="[item.link]" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+          true}" class="navegador__ul-li-a">
+          <i [class]="item.icon"></i>{{ item.title }}
+        </a>
+      </li>
+    </ul>
+</nav>  

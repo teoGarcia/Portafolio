@@ -1,0 +1,58 @@
+.Carousel1{
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+.carousel-caption{
+
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.ParrafoSpaVecGenerator{
+
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding:0px 70px;
+    padding-bottom: 10px;
+    text-align: justify;
+    
+
+}
+
+.TituloGeneralImagenes{
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 50px;
+
+}
+
+#imagenVectores{
+
+    height: 520px;
+
+}
+#imagenBenso{
+
+    height: 550px;
+
+}
+
+
+ //para Telefonos
+  
+@media only screen and (max-width: 1030px) {
+
+    .Carousel1{
+        width: 100%;
+        margin: 0 auto;
+        padding:0px 2px;
+    
+    }
+
+
+}
+

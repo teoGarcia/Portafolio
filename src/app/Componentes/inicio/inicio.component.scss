@@ -1,0 +1,29 @@
+.TeofiloG{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    // transition: 4s;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 4em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 255, 0.2);
+    border-radius: 6px;
+    border-top: 5px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+    
+
+}
+
+
+        /* Separacion para modo
+         tablet-telefono */
+
+@media only screen and (max-width: 765px){
+
+    .TeofiloG{
+        font-size: 3em;
+    }
+
+}

@@ -1,0 +1,47 @@
+
+  <h2 class="TituloGeneralImagenes">SpaVecGenerator</h2>
+
+  <p class="ParrafoSpaVecGenerator">
+    <b> SpaVecGenerator </b> es un software realizado en el lenguaje de programación <b>Java</b> 
+    utilizando el gestor de Base de datos <b> MySQL. </b> <br>
+    Este Proyecto fue realizado e implementado para que los estudiantes de Ingeniería Civil de la 
+    Universidad Politécnica "Manuela Saenz"
+    pudieran ver puntos, vectores, segmentos y angulos en 3 Dimensiones pudiendo identificar las posiciones
+    en las coordenadas X, Y y Z.
+    Por otra parte tambien permite Guardar y Abrir Proyectos 
+  </p>
+
+  <ngb-carousel class="Carousel1">
+    <ng-template *ngFor="let VectorImagen of VectorImagenes" ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="{{VectorImagen.img}}" alt="Random first slide" id="imagenVectores">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{VectorImagen.nombre}}</h3>
+        <p>{{VectorImagen.desc}}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+
+  <h2 class="TituloGeneralImagenes">Benso SPA</h2>
+  <p class="ParrafoSpaVecGenerator">
+    <b> Benso S.P.A. </b>es un software realizado en el lenguaje de programación <b>Java</b> 
+    utilizando el gestor de Base de datos <b> MySQL. </b> <br>
+    Este fue un proyecto realizado para una Pequeña Constructora llamada Benso S.P.A. en la Región de Valparaiso, Chile y 
+    cuenta con 5 Modulos en los cuales se pueden nombrar los siguiente: Clientes, Cotizaciones, Compras,
+    Ordenes de Compras y Proyectos. <br>
+    Fué un proyecto 100% adaptado a las exigencias del cliente cumpliendo con lo esperado por el mismo
+  </p>
+
+  <ngb-carousel class="Carousel1">
+    <ng-template *ngFor="let VectorImagenBenso of VectorImagenesBenso" ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="{{VectorImagenBenso.img}}" alt="Random first slide" id="imagenBenso">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{VectorImagenBenso.nombre}}</h3>
+        <p>{{VectorImagenBenso.desc}}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
