@@ -171,7 +171,7 @@
     .contenedorCompleto{
 
         width: 75vw;
-        height: 30vh;
+        height: 62vh;
 
     }
 
@@ -233,13 +233,23 @@
 
 }
 
+@media only screen and (max-width: 600px) and (orientation: landscape){
 
-@media only screen and (max-width: 600px){
+
+    .contenedorCompleto{
+            
+        height: 330px;
+        width: 95vw;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
     
             .contenedorCompleto{
             
-                height: 30vh;
-                width: 80vw;
+                height: 46%;
+                width: 100vw;
             }
             
             .parteIzquierda h1{
@@ -252,7 +262,7 @@
             }
             
             .tituloDatos{
-            
+                margin: 0;
                 padding-left: 10px;
                 color: rgb(95, 4, 104);
                 font-size: 0.8em;
