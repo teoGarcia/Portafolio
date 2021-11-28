@@ -95,3 +95,53 @@
   background-color: #25d366;
 
 }
+
+@media only screen and (max-height:1280px) and (max-width:720px){
+
+
+  // #divRedesSociales{
+
+  //   position: fixed;
+  //   top: 200px;
+  //   z-index: 100;
+  //   left: 0;
+  // }
+  
+  #face a{
+    padding: 5px 15px;
+    opacity: 0.75;
+  }
+
+  #Instagram a, #Youtube a, #GitHub a, #Whatsapp a{
+    padding: 5px 13px;
+    opacity: 0.75;
+  }
+  
+  #Gmail a{
+    padding: 5px 12px;
+    opacity: 0.75;
+  }
+  
+  
+  .Iconos{
+  
+    padding: 10px 0px;
+    // background-color: black;
+  
+  }
+  
+  #face a:hover, #GitHub a:hover, #Whatsapp a:hover{
+    padding: 5px 30px;
+    
+  
+  }
+  #Instagram a:hover, #Youtube a:hover, #Gmail a:hover{
+    padding: 5px 28px;
+  
+  }
+  
+  
+
+
+
+}
