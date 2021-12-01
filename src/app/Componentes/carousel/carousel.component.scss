@@ -41,18 +41,141 @@
 
 }
 
-
- //para Telefonos
-  
-@media only screen and (max-width: 1030px) {
-
+@media only screen and (max-height:920px) and (max-width:1440px){
+    
     .Carousel1{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
         padding:0px 2px;
     
     }
 
+    #imagenVectores{
+
+        height: 590px;
+    
+    }
+    #imagenBenso{
+    
+        height: 625px;
+    
+    }
+
+
 
 }
+
+
+//Modo Telefono Grande / Tablet
+
+@media only screen and (max-height:1280px) and (max-width:820px){
+    
+    .ParrafoSpaVecGenerator{
+        
+        font-size: 1em;
+    
+    }
+    
+    .Carousel1{
+        width: 80%;
+        margin: 0 auto;
+        padding:0px 2px;
+    
+    }
+
+    #imagenVectores{
+
+        height: 345px;
+    
+    }
+    #imagenBenso{
+    
+        height: 370px;
+    
+    }
+
+    .TituloGeneralImagenes{
+
+        font-size: 1.3em;
+    
+    }
+
+}
+
+
+ //para Telefonos
+  
+@media only screen and (max-height:428px) and (max-width:690px) {
+
+    .ParrafoSpaVecGenerator{
+        
+        font-size: 1em;
+    
+    }
+    
+    .Carousel1{
+        width: 95%;
+        margin: 0 auto;
+        padding:0px 2px;
+    
+    }
+
+    #imagenVectores{
+
+        height: 345px;
+    
+    }
+    #imagenBenso{
+    
+        height: 370px;
+    
+    }
+
+    .TituloGeneralImagenes{
+
+        font-size: 1.3em;
+    
+    }
+
+
+}
+
+@media only screen and (max-height:690px) and (max-width:428px){
+
+    .ParrafoSpaVecGenerator{
+        
+        font-size: 1em;
+    
+    }
+    
+    .Carousel1{
+        width: 95%;
+        margin: 0 auto;
+        padding:0px 2px;
+    
+    }
+
+    #imagenVectores{
+
+        height: 210px;
+    
+    }
+    #imagenBenso{
+    
+        height: 230px;
+    
+    }
+
+    .TituloGeneralImagenes{
+
+        font-size: 1.3em;
+    
+    }
+}
+
+
+    
+
+
+
 

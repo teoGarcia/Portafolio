@@ -1,7 +1,7 @@
 .contenedorCompleto{
-
+    top: 50%;
     display: flex;
-    // margin-top: 60px;
+    
     
 }
 .ProgressBar{
@@ -18,14 +18,15 @@
 }
 
 .div__Habilidades{
-    
-    text-align: center;
+    // margin-top: 80px;
     width: 50vw;
+    text-align: center;
 
 }
 .h2__Habilidades{
 
-    color: #fff;
+    
+    color: rgb(255, 255, 255);
 
 }
 
@@ -129,6 +130,7 @@
 
         display: block;
         
+        
     }
     
 
@@ -182,7 +184,8 @@
 
     .h2__Habilidades{
 
-        padding: 15px;
+        padding: 50px 0 15px;
+        
     }
 
 }
