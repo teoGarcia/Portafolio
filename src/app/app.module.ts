@@ -1,14 +1,20 @@
+// core modules
 import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { routing, appRoutingProviders } from './app.routing';
-
-import { AppComponent } from './app.component';
-// bootstrap
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+// animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// routing
+import { routing, appRoutingProviders } from './app.routing';
+
+// root components
+import { AppComponent } from './app.component';
+
+// external modules
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgParticlesModule } from "ng-particles";
+
+// components
 import { CarouselComponent } from './Componentes/carousel/carousel.component';
 import { BarraNavegacionComponent } from './Componentes/barra-navegacion/barra-navegacion.component';
 import { DatosPersonalesComponent } from './Componentes/datos-personales/datos-personales.component';
@@ -19,7 +25,9 @@ import { EstudiosComponent } from './Componentes/estudios/estudios.component';
 
 @NgModule({
   declarations: [
+    // root component
     AppComponent,
+    // components
     CarouselComponent,
     BarraNavegacionComponent,
     DatosPersonalesComponent,
@@ -29,11 +37,14 @@ import { EstudiosComponent } from './Componentes/estudios/estudios.component';
     EstudiosComponent
   ],
   imports: [
+    // core
     BrowserModule,
-    // AppRoutingModule,
-    NgbModule,
     BrowserAnimationsModule,
-    routing
+    // AppRoutingModule,
+    routing,
+    // external 
+    NgParticlesModule,
+    NgbModule,
   ],
   providers: [
     appRoutingProviders,
