@@ -1,409 +1,315 @@
-.contenedorCompleto{
-
-    
-    width: 60vw;
-    height: 650px;
-    background: black;
-    opacity: 0.9;
-    border-radius: 40px;
-    position: absolute; 
-    transition: 3s;
-    left: 50%;
-    top: 50%;
-    display: flex;
-    transform: translateX(-50%) translateY(-50%);
+.contenedorCompleto {
+  width: 60vw;
+  height: 650px;
+  background: black;
+  opacity: 0.9;
+  border-radius: 40px;
+  position: absolute;
+  transition: 3s;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.parteIzquierda{
-    
-    height: 100%;
-    width: 30%;
-    position: relative;
-    background: white;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-right: 4px solid;
-
+.parteIzquierda {
+  height: 100%;
+  width: 30%;
+  position: relative;
+  background: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-right: 4px solid;
 }
 
-.parteDerecha{
-    padding-bottom: 30px;
-    background: rgb(255, 255, 255);
-    width: 60%;
-
-
+.parteDerecha {
+  padding-bottom: 30px;
+  background: rgb(255, 255, 255);
+  width: 60%;
 }
-.parteUltima{
-
-    background: rgb(255, 255, 255);
-    width: 20%;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-
-
+.parteUltima {
+  background: rgb(255, 255, 255);
+  width: 20%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
-.parteIzquierda h1{
-
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.7em;
-    color: rgb(95, 4, 104);
-
-
+.parteIzquierda h1 {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+  color: rgb(95, 4, 104);
 }
 
-#labelRut{
-    
-    filter: blur(1.9px);
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-    text-align: center;
-    color: rgb(95, 4, 104);
-    border-bottom-left-radius: 60px;
-    font-size: 1.3em;
-    font-weight: bold;
-
+#labelRut {
+  filter: blur(1.9px);
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  color: rgb(95, 4, 104);
+  border-bottom-left-radius: 60px;
+  font-size: 1.3em;
+  font-weight: bold;
 }
-#labelRut:hover{
-
-    filter: none;
-    transition: 2s;
-
+#labelRut:hover {
+  filter: none;
+  transition: 2s;
 }
 
-.fotografia{
-
-    
-    position: relative;
-    text-align: center;
-    top: 40%;
-    transform: translateY(-70%);
-    display: flexbox;
-    transition: 2s;
+.fotografia {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-70%);
+  display: flexbox;
+  transition: 2s;
 }
 
-
-#fotoImagen{
-
-    transition: 3.54s;
-    width: 60%;
-    height: 60%;
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    box-shadow: 0px 0px 15px 15px rgb(70, 3, 77);
-    -webkit-box-shadow: 0px 0px 15px 15px rgba(71, 1, 78, 0.322);
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg); 
-    
-    
+#fotoImagen {
+  transition: 3.54s;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px rgb(70, 3, 77);
+  -webkit-box-shadow: 0px 0px 15px 15px rgba(71, 1, 78, 0.322);
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
 
-.lenguajesProgramacion{
-
-    padding: 72px 30px;
-    
-    
+.lenguajesProgramacion {
+  padding: 72px 30px;
 }
-.imagenesLenguajes{
-
-    animation: rotation 3s infinite linear;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    position: absolute;
-        
+.imagenesLenguajes {
+  animation: rotation 3s infinite linear;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
 }
 
-#fotoImagen:hover{
-
-    transition: 3s;
-    /* border-radius:50%; */
-    /* -webkit-border-radius:50%; */
-    box-shadow: 0px 0px 15px 15px rgb(95, 4, 104);
-    -webkit-box-shadow: 0px 0px 15px 15px rgba(23, 14, 24, 0.5);
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    /* backface-visibility: hidden; */
-
-
+#fotoImagen:hover {
+  transition: 3s;
+  /* border-radius:50%; */
+  /* -webkit-border-radius:50%; */
+  box-shadow: 0px 0px 15px 15px rgb(95, 4, 104);
+  -webkit-box-shadow: 0px 0px 15px 15px rgba(23, 14, 24, 0.5);
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  /* backface-visibility: hidden; */
 }
 
-.tituloDatos{
-
-    padding: 3% 5%;
-    color: rgb(95, 4, 104);
+.tituloDatos {
+  padding: 3% 5%;
+  color: rgb(95, 4, 104);
 }
 
-.datos{
-    
-    padding-left: 15%;
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold;
+.datos {
+  padding-left: 15%;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
 
 @keyframes rotation {
-    from {
-        -webkit-transform: rotateY(0deg);
-        -webkit-transform-style: preserve-3d;
-        transform: rotateY(0deg);
-        transform-style: preserve-3d
-    }
-    to {
-        -webkit-transform: rotateY(180deg);
-        
-        transform: rotateY(359deg);
-        
-    }
+  from {
+    -webkit-transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+  }
+  to {
+    -webkit-transform: rotateY(180deg);
+
+    transform: rotateY(359deg);
+  }
 }
 
-
-
-       /* Separacion para modo
+/* Separacion para modo
          Laptop */
 
-@media only screen and (max-height:920px) and (max-width:1440px){
+@media only screen and (max-height: 920px) and (max-width: 1440px) {
+  .contenedorCompleto {
+    height: 400px;
+    width: 70vw;
+  }
 
+  .parteIzquierda h1 {
+    font-size: 1.2em;
+  }
 
-    .contenedorCompleto{
-            
-        height: 400px;
-        width: 70vw;
-    }
-    
-    .parteIzquierda h1{
-        
-        font-size: 1.2em;
-    
-    }
-    
-    .tituloDatos{
-        margin: 0;
-        padding-left: 10px;
-        padding-top: 25px;
-        font-size: 1.2em;
-    }
-    
-    .datos{
-        
-        font-size: 1em;
-        
-    }
-    
-    .lenguajesProgramacion{
-        
-        padding: 45px 50px;
-        border: none;
-    }
-    
-    .imagenesLenguajes{
-    
-        width: 40px;
-        height: 40px;
-          
-    }
-    #labelRut{
-    
-        font-size: 0.9em;
-    }
-    
-    #fotoImagen{
-    
-        width: 60%;
-        height: 60%;
-    }
+  .tituloDatos {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 1.2em;
+  }
 
-    .parteDerecha{
+  .datos {
+    font-size: 1em;
+  }
 
-        padding: 0;
+  .lenguajesProgramacion {
+    padding: 45px 50px;
+    border: none;
+  }
 
-    }
+  .imagenesLenguajes {
+    width: 40px;
+    height: 40px;
+  }
+  #labelRut {
+    font-size: 0.9em;
+  }
 
-}  
-    
-    
-            //Modo Telefono Grande / Tablet
-    
-    @media only screen and (max-height:1280px) and (max-width:820px){
-    
-        .contenedorCompleto{
-            
-            height: 350px;
-            width: 85vw;
-        }
-        
-        .parteIzquierda h1{
-            
-            font-size: 1em;
-        
-        }
-        
-        .tituloDatos{
-            margin: 0;
-            padding-left: 10px;
-            font-size: 1em;
-        }
-        
-        .datos{
-            
-            font-size: 0.9em;
-            
-        }
-        
-        .lenguajesProgramacion{
-        
-            padding: 40px 25px;
-            border: none;
-        }
-        
-        .imagenesLenguajes{
-        
-            width: 30px;
-            height: 30px;
-            
-            
-        }
-        
-        #labelRut{
-        
-            font-size: 0.7em;
-        }
-        
-        #fotoImagen{
-        
-            width: 70%;
-            height: 70%;
-        }
+  #fotoImagen {
+    width: 60%;
+    height: 60%;
+  }
 
-        .parteDerecha{
+  .parteDerecha {
+    padding: 0;
+  }
+}
 
-            padding: 0;
+//Modo Telefono Grande / Tablet
 
-        }
-    
-    }  
-    
-        //Telefono mediano
-    
-    @media only screen and (max-height:667px) and (max-width:375px){
-    
-        .contenedorCompleto{
-            
-            height: 250px;
-            width: 100vw;
-        }
-        
-        .parteIzquierda h1{
-            padding: 10px 20px 0px;
-            color: rgb(82, 3, 82);
-            font-size: 0.8em;
-            text-align: center;
-            
-        
-        }
-        
-        .tituloDatos{
-            margin: 0;
-            padding-left: 10px;
-            padding-top: 5px;
-            font-size: 0.8em;
-        }
-        
-        .datos{
-            
-            padding-left: 15%;
-            bottom: 10px;
-            font-size: 0.7em;
-            
-        }
-        
-        .lenguajesProgramacion{
-        
-            padding: 30px 25px;
-            border: none;
-        }
-        
-        .imagenesLenguajes{
-        
-            width: 20px;
-            height: 20px;
-            
-            
-        }
-        
-        #labelRut{
-        
-            font-size: 0.7em;
-        }
-        
-        #fotoImagen{
-        
-            width: 70%;
-            height: 70%;
-        }
+@media only screen and (max-height: 1280px) and (max-width: 820px) {
+  .contenedorCompleto {
+    height: 350px;
+    width: 85vw;
+  }
 
-        .parteDerecha{
+  .parteIzquierda h1 {
+    font-size: 1em;
+  }
 
-            padding: 0;
+  .tituloDatos {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 1em;
+  }
 
-        }
-    
-    }
-    
-        //Telefono pequeño
-    
-    @media only screen and (max-height:340px) and (max-width:670px){
+  .datos {
+    font-size: 0.9em;
+  }
 
-        .contenedorCompleto{
-            
-            height: 270px;
-            width: 90vw;
-        }
+  .lenguajesProgramacion {
+    padding: 40px 25px;
+    border: none;
+  }
 
-        .parteDerecha{
+  .imagenesLenguajes {
+    width: 30px;
+    height: 30px;
+  }
 
-            
+  #labelRut {
+    font-size: 0.7em;
+  }
 
-        }
-        .lenguajesProgramacion{
-        
-            padding: 30px 25px;
-            
-        }
+  #fotoImagen {
+    width: 70%;
+    height: 70%;
+  }
 
-        .tituloDatos{
+  .parteDerecha {
+    padding: 0;
+  }
+}
 
-            padding: 5px 7px;
-            
-        }
+//Telefono mediano
 
-        #fotoImagen{
-        
-            width: 60%;
-            height: 60%;
-        }
-        .fotografia{
+@media only screen and (max-height: 667px) and (max-width: 375px) {
+  .contenedorCompleto {
+    height: 250px;
+    width: 100vw;
+  }
 
-            transform: translateY(-100%);
-        }
-    
-    //     .TeofiloG{
-    //         text-align: center;
-            
-    //     }
-    //     #Nombre{
-    
-            
-    //         text-align: center;
-    
-    //     }
-    //     #Iam{
-    
-    //         text-align: center;
-    //     }
-    
-    }
+  .parteIzquierda h1 {
+    padding: 10px 20px 0px;
+    color: rgb(82, 3, 82);
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .tituloDatos {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 0.8em;
+  }
+
+  .datos {
+    padding-left: 15%;
+    bottom: 10px;
+    font-size: 0.7em;
+  }
+
+  .lenguajesProgramacion {
+    padding: 30px 25px;
+    border: none;
+  }
+
+  .imagenesLenguajes {
+    width: 20px;
+    height: 20px;
+  }
+
+  #labelRut {
+    font-size: 0.7em;
+  }
+
+  #fotoImagen {
+    width: 70%;
+    height: 70%;
+  }
+
+  .parteDerecha {
+    padding: 0;
+  }
+}
+
+//Telefono pequeño
+
+@media only screen and (max-height: 340px) and (max-width: 670px) {
+  .contenedorCompleto {
+    height: 270px;
+    width: 90vw;
+  }
+
+  .parteDerecha {
+  }
+  .lenguajesProgramacion {
+    padding: 30px 25px;
+  }
+
+  .tituloDatos {
+    padding: 5px 7px;
+  }
+
+  #fotoImagen {
+    width: 60%;
+    height: 60%;
+  }
+  .fotografia {
+    transform: translateY(-100%);
+  }
+
+  //     .TeofiloG{
+  //         text-align: center;
+
+  //     }
+  //     #Nombre{
+
+  //         text-align: center;
+
+  //     }
+  //     #Iam{
+
+  //         text-align: center;
+  //     }
+}

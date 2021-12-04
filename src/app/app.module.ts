@@ -11,7 +11,6 @@ import { routing, appRoutingProviders } from './app.routing';
 import { AppComponent } from './app.component';
 
 // external modules
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgParticlesModule } from "ng-particles";
 
 // components
@@ -44,7 +43,6 @@ import { EstudiosComponent } from './Componentes/estudios/estudios.component';
     routing,
     // external 
     NgParticlesModule,
-    NgbModule,
   ],
   providers: [
     appRoutingProviders,

@@ -1,58 +1,55 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
+interface Image {
+  nombre: string;
+  img: string;
+  desc: string;
+}
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss']
+  styleUrls: ['./carousel.component.scss'],
 })
 export class CarouselComponent implements OnInit {
-
-  VectorImagenes: any[] = [
-  {
-    nombre: "Menu Principal",
-    img: "../assets/Imagenes/SpaVecGeneratorMenu2.png",
-    desc: ""
-  },
-  {
-    nombre: "Vista 3D",
-    img: "../assets/Imagenes/SpaVecGeneratorVista3D.png",
-    desc: ""
-  },
-  {
-    nombre: "Puntos y segmentos",
-    img: "../assets/Imagenes/SpaVecGeneratorFigura.png",
-    desc: ""
-  }
-
-
+  
+  VectorImagenes: Image[] = [
+    {
+      nombre: 'Menu Principal',
+      img: '../assets/Imagenes/SpaVecGeneratorMenu2.png',
+      desc: '',
+    },
+    {
+      nombre: 'Vista 3D',
+      img: '../assets/Imagenes/SpaVecGeneratorVista3D.png',
+      desc: '',
+    },
+    {
+      nombre: 'Puntos y segmentos',
+      img: '../assets/Imagenes/SpaVecGeneratorFigura.png',
+      desc: '',
+    },
   ];
 
-  VectorImagenesBenso: any[] = [
+  VectorImagenesBenso: Image[] = [
     {
-      nombre: "Menu Principal",
-      img: "../assets/Imagenes/BensoSPAMenu.png",
-      desc: ""
+      nombre: 'Menu Principal',
+      img: '../assets/Imagenes/BensoSPAMenu.png',
+      desc: '',
     },
     {
-      nombre: "Cotizacion",
-      img: "../assets/Imagenes/BensoSPACotizacion.png",
-      desc: ""
+      nombre: 'Cotizacion',
+      img: '../assets/Imagenes/BensoSPACotizacion.png',
+      desc: '',
     },
     {
-      nombre: "Orden de Compra",
-      img: "../assets/Imagenes/BensoSPAOC.png",
-      desc: ""
-    }
-  
-  
-    ];
+      nombre: 'Orden de Compra',
+      img: '../assets/Imagenes/BensoSPAOC.png',
+      desc: '',
+    },
+  ];
 
+  constructor() {}
 
-  constructor(private _config:NgbCarouselConfig) { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
