@@ -56,9 +56,9 @@ export class AppComponent {
       number: {
         density: {
           enable: true,
-          value_area: 20,
+          value_area: 500,
         },
-        value: 20,
+        value: 50,
       },
       opacity: {
         value: 0.5,
