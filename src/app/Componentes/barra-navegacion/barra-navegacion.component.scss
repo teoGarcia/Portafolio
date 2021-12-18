@@ -62,7 +62,9 @@
   
     #Boton {
       float: right;
+      margin-top: -150px !important;
       display: block;
+      // position: absolute;
       background: rgba(255, 255, 255, 0.01);
       transform: translateY(0);
 
@@ -101,5 +103,18 @@
   
     .navegador {
       width: 100% auto;
+      background: red;
     }
   }
+
+
+  // @media only screen and (max-width: 575px) {
+
+  //   #Boton{
+
+  //     margin-right: 0;
+
+  //   }
+
+  // }
+
