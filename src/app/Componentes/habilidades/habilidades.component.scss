@@ -1,191 +1,210 @@
-.contenedorCompleto{
-    top: 50%;
-    display: flex;
-    
-    
-}
-.ProgressBar{
+h2{
 
-
-    width: 60%;
-    margin: 0 auto;
-    border-radius: 10px;
-    font-size: 1em;
-    // position: relative;
-    // display: inline;
-
-
-}
-
-.div__Habilidades{
-    // margin-top: 80px;
-    width: 50vw;
+    color: rgb(255,255,255);
     text-align: center;
-
-}
-.h2__Habilidades{
-
-    
-    color: rgb(255, 255, 255);
+    padding: 30px;
 
 }
 
-.h2__Experiencia{
+h4{
 
-    text-align: center;
-    color: #fff;
-    
-}
-
-.div__Experiencia{
-
-    width: 50vw;
-    text-align: center;
-    
-    
-}
-
-.Habilidades__Label{
-
-    /* padding-top: 44px; */
-    width: 40% ;
-    display: inline;
-    font-weight: bold;
-    // justify-content: center;
-    transform: translateY(-100%);
-    
-
-    
-}
-
-.Progress{
-    /* -webkit-appearance: none; */
-    /* transition: 4s; */
-    padding: 30px 100px;
-    
-    
-    
-    
-} 
-/* progress::after{
-
-    background: orange;
-} */
-
- /* .Progress::-webkit-progress-value{
-    transition: 2s;
-    background: red;
-    
-  }  */
-.PorcentajesLabel{
-
-    /* padding-top: 44px; */
-    display: inline-block;
-    justify-content: center;
-    transform: translateY(-100%);
+    color: rgb(255,255,255);
+    font-size: 1.4rem;
 
 }
 
-.divHabilidades{
+// .contenedorCompleto{
+//     top: 50%;
+//     display: flex;
+    
+    
+// }
+// .ProgressBar{
 
-    padding: 4%;
-    background: rgb(255, 255, 255, 0.6);
+
+//     width: 60%;
+//     margin: 0 auto;
+//     border-radius: 10px;
+//     font-size: 1em;
+//     // position: relative;
+//     // display: inline;
+
+
+// }
+
+// .div__Habilidades{
+//     // margin-top: 80px;
+//     width: 50vw;
+//     text-align: center;
+
+// }
+// .h2__Habilidades{
+
+    
+//     color: rgb(255, 255, 255);
+
+// }
+
+// .h2__Experiencia{
+
+//     text-align: center;
+//     color: #fff;
+    
+// }
+
+// .div__Experiencia{
+
+//     width: 50vw;
+//     text-align: center;
+    
+    
+// }
+
+// .Habilidades__Label{
+
+//     /* padding-top: 44px; */
+//     width: 40% ;
+//     display: inline;
+//     font-weight: bold;
+//     // justify-content: center;
+//     transform: translateY(-100%);
+    
+
+    
+// }
+
+// .Progress{
+//     /* -webkit-appearance: none; */
+//     /* transition: 4s; */
+//     padding: 30px 100px;
+    
+    
+    
+    
+// } 
+// /* progress::after{
+
+//     background: orange;
+// } */
+
+//  /* .Progress::-webkit-progress-value{
+//     transition: 2s;
+//     background: red;
+    
+//   }  */
+// .PorcentajesLabel{
+
+//     /* padding-top: 44px; */
+//     display: inline-block;
+//     justify-content: center;
+//     transform: translateY(-100%);
+
+// }
+
+// .divHabilidades{
+
+//     padding: 4%;
+//     background: rgb(255, 255, 255, 0.6);
+
+// }
+
+// .ExperienciaDiv{
+
+//     padding: 2.135%;
+//     background: rgb(24, 21, 20, 0.6);
+
+// }
+
+// .Experiencia__Label{
+
+//     width: 30% ;
+//     color: white;
+//     display: inline;
+//     font-weight: bold;
+//     transform: translateY(-100%);
+// }
+
+// .LabelPorcentajeExp{
+
+
+//     color: white;
+//     display: inline-block;
+//     transform: translateY(-100%);
+//     justify-content: center;
+// }
+
+@media only screen and (max-width:1030px){
+
+    .container{
+
+        margin-top: 150px;
+    }
 
 }
 
-.ExperienciaDiv{
-
-    padding: 2.135%;
-    background: rgb(24, 21, 20, 0.6);
-
-}
-
-.Experiencia__Label{
-
-    width: 30% ;
-    color: white;
-    display: inline;
-    font-weight: bold;
-    transform: translateY(-100%);
-}
-
-.LabelPorcentajeExp{
 
 
-    color: white;
-    display: inline-block;
-    transform: translateY(-100%);
-    justify-content: center;
-}
+//     .contenedorCompleto{
 
 
-
-
-
-
-@media only screen and (max-width: 1030px){
-
-    .contenedorCompleto{
-
-
-        display: block;
+//         display: block;
         
         
-    }
+//     }
     
 
-    .Habilidades__Label{
+//     .Habilidades__Label{
 
-        display: block;
-        width: 100%;
-        /* margin: 10px; */
-        /* transform: translateY(0); */
-    }
+//         display: block;
+//         width: 100%;
+//         /* margin: 10px; */
+//         /* transform: translateY(0); */
+//     }
 
-    .PorcentajesLabel{
+//     .PorcentajesLabel{
 
-        /* display: block; */
-        transform: translateY(-200%); 
+//         /* display: block; */
+//         transform: translateY(-200%); 
 
-    }
+//     }
 
-    .Progress{
+//     .Progress{
 
-        display: flexbox;
-        transform: translateY(-30%);
-        width: 80%;
-    }
+//         display: flexbox;
+//         transform: translateY(-30%);
+//         width: 80%;
+//     }
 
-    .div__Habilidades{
+//     .div__Habilidades{
     
-        /* text-align: center; */
-        width: 100vw;
-        border: none;
+//         /* text-align: center; */
+//         width: 100vw;
+//         border: none;
     
-    }
+//     }
 
-    .divHabilidades{
+//     .divHabilidades{
         
-        display: block;
-        position: relative;
-        padding: 25px;
-    }
+//         display: block;
+//         position: relative;
+//         padding: 25px;
+//     }
 
 
-    .div__Experiencia{
+//     .div__Experiencia{
 
-        width: 100vw;
+//         width: 100vw;
 
-    }
-    .h2__Experiencia{
+//     }
+//     .h2__Experiencia{
 
-        padding: 15px;
-    }
+//         padding: 15px;
+//     }
 
-    .h2__Habilidades{
+//     .h2__Habilidades{
 
-        padding: 50px 0 15px;
+//         padding: 50px 0 15px;
         
-    }
+//     }
 
-}
+// }

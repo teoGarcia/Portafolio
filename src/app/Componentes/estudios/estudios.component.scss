@@ -1,115 +1,189 @@
-.Secciones{
+.filas{
 
-    display: flex;
     padding: 50px;
-    color: white;
-    
 }
 
-#divEstudios{
+.container{
 
-    text-align: center;
-    width: 30%;
-    height: 150px;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+h3{
+
+    font-size: 1.8rem;
+}
+
+/* Extra Small */
+@media(max-width:767px){
+
+    h2{
+
+        font-size: 1.6rem;
+    }
+
+    h4{
+        padding: 7px 13px;
+        font-size: 1rem;
+    }
+    h3{
+        
+        font-size: 1.2rem;
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+
+    h2{
+
+        font-size: 1.8rem;
+    }
+
+    h4{
+        padding: 8px 15px;
+        font-size: 1.4rem;
+    }
+    h3{
+        
+        font-size: 1.2rem;
+    }
 
 }
 
-#divUniversidad{
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
 
-    width: 50%;
-    padding: 0 40px;
-    border-bottom: ridge rgb(229, 211, 231) 5px;
-    border-left: ridge rgb(229, 211, 231) 5px;
 
-}
-#divUniversidad span{
-
-    font-size: 1.5em;
-}
-
-#divCursos{
-
-    text-align: center;
-    width: 30%;
-    height: 150px;
-
-}
-#divNomCursos{
-
-    // padding: 0 40px;
-    width: 50%;
-    padding: 10px 40px;
-    border-top: ridge rgb(229, 211, 231) 5px;
-    border-left: ridge rgb(229, 211, 231) 5px;
-
-}
-
-#divNomCursos span{
-
-    font-size: 1.5em;
-
-}
-
-.Secciones h4{
-
-    font-size: 1.3em;
-    padding: 10px;
 
 }
 
 
- //Telefono mediano
-    
-@media only screen and (max-height:1020px) and (max-width:700px){
-    
-    .Secciones{
+@media only screen and (max-width: 1030px){
 
-        display: block;
+    .container{
+  
+        margin-top: 150px;
         
     }
-
-    #divEstudios{
-
-        text-align: center;
-        width: 100%;
-        height: 100px;
-    
-    }
-    
-    #divUniversidad{
-    
-        width: 100%;
-        padding: 0 40px;
-        border-bottom: ridge rgb(229, 211, 231) 5px;
-        border-left: ridge rgb(229, 211, 231) 5px;
-    
-    }
-    #divUniversidad span{
-
-        font-size: 1em;
-        
-    }
-
-    #divNomCursos span{
-
-        font-size: 1em;
-    
-    }
-
-    #divCursos{
-
-        width: 100%;
-        padding: 40px;
-    }
-
-    #divNomCursos{
-
-        width: 100%;
-        
-    }
-
     
 }
+
+// .Secciones{
+
+//     display: flex;
+//     padding: 50px;
+//     color: white;
+    
+// }
+
+// #divEstudios{
+
+//     text-align: center;
+//     width: 30%;
+//     height: 150px;
+
+// }
+
+// #divUniversidad{
+
+//     width: 50%;
+//     padding: 0 40px;
+//     border-bottom: ridge rgb(229, 211, 231) 5px;
+//     border-left: ridge rgb(229, 211, 231) 5px;
+
+// }
+// #divUniversidad span{
+
+//     font-size: 1.5em;
+// }
+
+// #divCursos{
+
+//     text-align: center;
+//     width: 30%;
+//     height: 150px;
+
+// }
+// #divNomCursos{
+
+//     // padding: 0 40px;
+//     width: 50%;
+//     padding: 10px 40px;
+//     border-top: ridge rgb(229, 211, 231) 5px;
+//     border-left: ridge rgb(229, 211, 231) 5px;
+
+// }
+
+// #divNomCursos span{
+
+//     font-size: 1.5em;
+
+// }
+
+// .Secciones h4{
+
+//     font-size: 1.3em;
+//     padding: 10px;
+
+// }
+
+
+//  //Telefono mediano
+    
+// @media only screen and (max-height:1020px) and (max-width:700px){
+    
+//     .Secciones{
+
+//         display: block;
+        
+//     }
+
+//     #divEstudios{
+
+//         text-align: center;
+//         width: 100%;
+//         height: 100px;
+    
+//     }
+    
+//     #divUniversidad{
+    
+//         width: 100%;
+//         padding: 0 40px;
+//         border-bottom: ridge rgb(229, 211, 231) 5px;
+//         border-left: ridge rgb(229, 211, 231) 5px;
+    
+//     }
+//     #divUniversidad span{
+
+//         font-size: 1em;
+        
+//     }
+
+//     #divNomCursos span{
+
+//         font-size: 1em;
+    
+//     }
+
+//     #divCursos{
+
+//         width: 100%;
+//         padding: 40px;
+//     }
+
+//     #divNomCursos{
+
+//         width: 100%;
+        
+//     }
+
+    
+// }
 
 // #SeparadorHorizontal{
 

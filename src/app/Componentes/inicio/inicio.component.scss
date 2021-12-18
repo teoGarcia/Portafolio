@@ -39,6 +39,7 @@
 
 #Nombre{
 
+    width: max-content;
     font-size: 4.2em;
 
 }
@@ -88,11 +89,20 @@
     #Nombre{
 
         font-size: 3em;
-        text-align: left;
+        // text-align: left;
 
     }
 
 }  
+
+@media only screen and (max-width:1030px){
+
+    .prueba{
+
+        margin-top: 150px;
+    }
+
+}
 
     //Telefono mediano
 

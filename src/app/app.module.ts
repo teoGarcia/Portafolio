@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 // external modules
 import { NgParticlesModule } from "ng-particles";
 
+import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
+
 // components
 import { CarouselComponent } from './Componentes/carousel/carousel.component';
 import { BarraNavegacionComponent } from './Componentes/barra-navegacion/barra-navegacion.component';
@@ -33,7 +35,8 @@ import { EstudiosComponent } from './Componentes/estudios/estudios.component';
     HabilidadesComponent,
     ContactoComponent,
     InicioComponent,
-    EstudiosComponent
+    EstudiosComponent,
+    
   ],
   imports: [
     // core
@@ -43,6 +46,7 @@ import { EstudiosComponent } from './Componentes/estudios/estudios.component';
     routing,
     // external 
     NgParticlesModule,
+    NgbProgressbarModule
   ],
   providers: [
     appRoutingProviders,

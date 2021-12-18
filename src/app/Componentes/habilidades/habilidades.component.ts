@@ -24,13 +24,25 @@ import { NgbProgressbarConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class HabilidadesComponent implements OnInit {
 
-  constructor(private _Config:NgbProgressbarConfig) {
+  constructor(config: NgbProgressbarConfig){
 
-    _Config.height = '2rem';
-    _Config.striped = true;
-    _Config.animated = true;
     
+    config.max = 100;
+    config.striped = true;
+    config.animated = true;
+    config.type = 'success';
+    config.height = '1.5rem';
+
+
   }
+
+  // constructor(private _Config:NgbProgressbarConfig) {
+
+  //   _Config.height = '2rem';
+  //   _Config.striped = true;
+  //   _Config.animated = true;
+    
+  // }
 
   ngOnInit(): void {
   
