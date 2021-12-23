@@ -4,7 +4,7 @@
   }
   
   #Boton {
-    // float: right; 
+    float: right; 
     border: none;
     width: 3rem;
     height: 3rem;
@@ -55,8 +55,6 @@
     font-weight: bold;
   }
 
-
-  //para Telefonos
   
   @media only screen and (max-width: 1030px) {
   
